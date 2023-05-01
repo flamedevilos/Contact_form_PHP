@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.nav {
+    margin-top: 1%;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+body {
+    background: url("/img/city_bg.jpg") no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 3%;
+    width: 50%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+h1 {
+    font-weight: 800;
+    font-size: 4em;
+}
+.title p {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.contact-form {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-form .alert{
+    border-radius: 0.375rem;
+    position: relative;
+    padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);
+    color: var(--bs-alert-color);
+    background-color: var(--bs-alert-bg);
+    border-radius: var(--bs-alert-border-radius);
+}
+
+.alert-dismissible .btn-close {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    z-index: 2;
+    padding: 1.25rem 1rem;
+}
+
+.contact-form .alert-field {
+    position: relative;
+    top: -10px;
+    font-style: italic;
+    font-size: 13px;
+    color: red;
+    display: none;
+}
+
+.contact-form input, textarea{
+    margin-bottom: 10px;
+    padding-left: -30px;
+}
+
+.contact-form textarea {
+    height: 150px; !important
+}
+
+.contact-form i{
+    position: relative;
+    float: left;
+    height: 0;
+    top: -37px;
+    left: 10px;
+    color: grey;
+}
+
+.contact-form input {
+    padding-left: 30px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+}
+
+
+
+
+
+
